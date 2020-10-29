@@ -11,7 +11,9 @@
     * [sqlite3 source directory]/configure
     * make 
     * make test (optional)
-
+  * create two directories: include and lib
+  * move sqlite3.h to the include directory
+  * move libsqlite3.[version].so to the lib directory and make a softlink `ln -s [the file] libsqlite3`
 
 
 
